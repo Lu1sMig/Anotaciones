@@ -3,9 +3,8 @@
 <h2>...</h2>
 <h2>Git y gitHUb: reposistorio, commit y versiones</h2>
 <p>Dentro de los comando más comunenes se tienen:</p>
-<ol>
+<ol start="3">>
   <li>git clone https://github.com/Lu1sMig/sistema-de-registro..git</li>
-</ol>
 <dl>
   <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~<br />
 $ git config --global user.mail lmcavero.a@gmail.com
@@ -75,8 +74,11 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git status</dt>
 <dd>On branch main<br/>Your branch is up to date with 'origin/main'.<br/>nothing to commit, working tree clean</dd>
 
-
 </dl>
+  <li>Ramificaciones y merge
+  </li>
+</ol>
+
 
 <style type=”text/css”>
 ol {  list-style-type: lower-roman;}
