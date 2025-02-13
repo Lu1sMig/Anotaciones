@@ -77,6 +77,16 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
 </dl>
   <li>Ramificaciones y merge
   </li>
+  <dl>
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git branch<br/></dt>
+    <dd>* main</dd><
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br>$ git checkout -b desarrollo</dt>
+    <dd>Switched to a new branch 'desarrollo'</dd>
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br>$ git switch main</dt>
+    <dd>Switched to branch 'main'<br/>Your branch is up to date with 'origin/main'.</dd>
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git branch</dt>
+    <dd>desarrollo<br/>* main</dd>
+  </dl>
 </ol>
 
 
