@@ -167,7 +167,20 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Lu1sMig/sistema-de-registro.git
    03e62db..9fc4abc  main -> main
 </dd>
-<li>Profundizando en Git y GitHub</li>      
+<li>Profundizando en Git y GitHub</li>
+<dl>
+  <dd>
+    Aprendimos que hay otra forma de iniciar un repositorio Git, además de clonar uno existente. Se puede hacer usando el comando "git init" en una carpeta vacía.
+
+Después de inicializar el repositorio local con "git init", creamos un archivo HTML básico y lo agregamos al repositorio con "git add" y "git commit".
+
+Para conectar el repositorio local con un repositorio remoto en GitHub, usamos el comando "git remote add" para establecer la URL del repositorio remoto.
+
+Actualizamos la rama principal de "master" a "main" usando el comando "git branch -M main".
+
+Finalmente, enviamos los cambios al repositorio remoto usando "git push -u origin main". La opción "-u" nos permite usar después sólo "git push" para enviar futuros cambios.
+  </dd>
+</dl>
 </ol>
 
 
