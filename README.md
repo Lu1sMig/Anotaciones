@@ -50,11 +50,33 @@ filter.lfs.required=true<br/>
 <dd>Historial de cambios en un lapso de tiempo</dd>
 <dt>$ git log --pretty="format:%h %s"</dt>
 <dd>historial con formato.</dd>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git status</dt>
+<dd>On branch main<br\> Your branch is up to date with 'origin/main'.<br\>Untracked files:<br\>  (use "git add <file>..." to include in what will be committed)<br\>contacto.html<br\>
+nothing added to commit but untracked files present (use "git add" to track)
+</dd>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br\>$ git add .</dt>
+<dd></dd>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br\>$ git commint -m "archivo contacto"</dt>
+<dd>git: 'commint' is not a git command. See 'git --help'.<br\><br\><br\>The most similar command is<br\>commit </dt></dd>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br\>
+$ git commit -m "archivo contacto"</dt>
+<dd> [main 83a55b0] archivo contacto <br\> 1 file changed, 12 insertions(+) <br\> create mode 100644 contacto.html</dd>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br\>$ git push</dt>
+<dd>info: please complete authentication in your browser...<br\>
+Enumerating objects: 4, done.<br\>
+Counting objects: 100% (4/4), done.<br\>
+Delta compression using up to 8 threads<br\>
+Compressing objects: 100% (3/3), done.<br\>
+Writing objects: 100% (3/3), 540 bytes | 540.00 KiB/s, done.<br\>
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)<br\>
+To https://github.com/Lu1sMig/sistema-de-registro.git<br\>
+   0569fe7..83a55b0  main -> main<br\>
+</dd>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br\>$ git status</dt>
+<dd>On branch main<br\>Your branch is up to date with 'origin/main'.<br\>nothing to commit, working tree clean</dd>
+
+
 </dl>
-
-
-
-
 
 <style type=”text/css”>
 ol {  list-style-type: lower-roman;}
