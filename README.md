@@ -87,6 +87,48 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git branch</dt>
     <dd>desarrollo<br/>* main</dd>
   </dl>
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
+$ git add .
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
+$ git commit -m "agregando instructor datos"
+[desarrollo 6bc3db7] agregando instructor datos
+ 1 file changed, 1 insertion(+)
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
+$ git push
+fatal: The current branch desarrollo has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin desarrollo
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
+$ git push origin desarroll
+error: src refspec desarroll does not match any
+error: failed to push some refs to 'https://github.com/Lu1sMig/sistema-de-registro.git'
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
+$ git push origin desarrollo
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (30/30), 7.50 KiB | 3.75 MiB/s, done.
+Total 30 (delta 9), reused 16 (delta 3), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (9/9), done.
+remote:
+remote: Create a pull request for 'desarrollo' on GitHub by visiting:
+remote:      https://github.com/Lu1sMig/sistema-de-registro/pull/new/desarrollo
+remote:
+To https://github.com/Lu1sMig/sistema-de-registro.git
+ * [new branch]      desarrollo -> desarrollo
+
+      
 </ol>
 
 
