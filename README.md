@@ -179,6 +179,21 @@ Para conectar el repositorio local con un repositorio remoto en GitHub, usamos e
 Actualizamos la rama principal de "master" a "main" usando el comando "git branch -M main".
 
 Finalmente, enviamos los cambios al repositorio remoto usando "git push -u origin main". La opción "-u" nos permite usar después sólo "git push" para enviar futuros cambios.
+Los comandos utilizados en esta clase fueron:
+
+git init - Inicializa un nuevo repositorio Git en la carpeta actual.
+
+git add - Agrega archivos al área de preparación (staging area) para ser incluidos en el próximo commit.
+
+git commit - Crea un nuevo commit con los cambios preparados.
+
+git remote add - Conecta el repositorio local con un repositorio remoto en GitHub.
+
+git branch -M main - Cambia el nombre de la rama principal de "master" a "main".
+
+git push -u origin main - Envía los commits del repositorio local al repositorio remoto en GitHub. La opción "-u" establece "origin main" como rama predeterminada para futuros pushes.
+
+git remote -v - Muestra las URLs de los repositorios remotos configurados.
   </dd>
 </dl>
 </ol>
