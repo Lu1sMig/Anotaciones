@@ -14,4 +14,9 @@ $ git config --global user.mail lmcavero.a@gmail.com
   <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~<br/>
 $ git config --global user.name "Lu1sM1g"</dt>
 </dl>
+<style type=”text/css”>
+ol {
+  list-style-type: lower-roman;
+}
+</style>
 
