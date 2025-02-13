@@ -128,6 +128,45 @@ remote:
 To https://github.com/Lu1sMig/sistema-de-registro.git
  * [new branch]      desarrollo -> desarrollo
 
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main) <br/>$ git init</dt>
+<dd>Reinitialized existing Git repository in C:/Users/SOPORTE/Documents/GitHub/sistema-de-registro/.git/<br />
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git status</dt>
+<dd>On branch main<br/>
+Your branch is ahead of 'origin/main' by 2 commits.<br/>
+  (use "git push" to publish your local commits)<br/><br/>
+nothing to commit, working tree clean</dd>
+
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>
+$ git log --oneline</dt>
+<dd></dd>9fc4abc (HEAD -> main) Merge branch 'main' of https://github.com/Lu1sMig/sistema-de-registro
+6bc3db7 (origin/desarrollo, desarrollo) agregando instructor datos
+03e62db (origin/main, origin/HEAD) Update app.js
+29e13a1 Actualiza nombre app.js y en link en index.html
+83a55b0 archivo contacto
+0569fe7 Update README.md
+470b8bf crea el index .html
+9f18c9c actualiza README.md
+32b8a07 Update README.md
+85a557a Crea el app-js
+b6adac0 Update README.md
+502493f Create README.md</dd>
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)
+$ git merge desarrollo
+Already up to date.
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 313 bytes | 313.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Lu1sMig/sistema-de-registro.git
+   03e62db..9fc4abc  main -> main
+</dd>
       
 </ol>
 
