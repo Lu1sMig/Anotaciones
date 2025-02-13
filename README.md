@@ -40,12 +40,23 @@ filter.lfs.process=git-lfs filter-process<br/>
 filter.lfs.required=true<br/>
 
   </dt>
+<dt>$ git log</dt>
+<dd>historial de conecciones al repositorio</dd>
+<dt>$ git log --oneline</dt>
+<dd>historial por conectar a git</dd>
+<dt>$ git log -p</dt>
+<dd>Historial detallado de cambio del repositorio</dd>
+<dt>git log --since=1.month-ago --until=1.day.ago</dt>
+<dd>Historial de cambios en un lapso de tiempo</dd>
+<dt>$ git log --pretty="format:%h %s"</dt>
+<dd>historial con formato.</dd>
 </dl>
 
 
+
+
+
 <style type=”text/css”>
-ol {
-  list-style-type: lower-roman;
-}
+ol {  list-style-type: lower-roman;}
 </style>
 
