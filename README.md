@@ -5,6 +5,11 @@
 <p>Dentro de los comando más comunenes se tienen:</p>
 <ol>
   <li>git clone https://github.com/Lu1sMig/sistema-de-registro..git</li>
-
 </ol>
+<dl>
+  <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~
+$ git config --global user.mail lmcavero.a@gmail.com
+</dt>
+  <dd>se valida con el correo del usuario</dd>
+</dl>
 
