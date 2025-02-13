@@ -32,12 +32,12 @@ credential.helper=manager<br/>
 credential.https://dev.azure.com.usehttppath=true<br/>
 init.defaultbranch=master<br/>
 user.mail=lmcavero.a@gmail.com<br/>
-user.email=luis.cavero3@unmsm.edu.pe<br\>
-user.name=Lu1sM1g<br\>
-filter.lfs.clean=git-lfs clean -- %f<br\>
-filter.lfs.smudge=git-lfs smudge -- %f<br\>
-filter.lfs.process=git-lfs filter-process<br\>
-filter.lfs.required=true<br\>
+user.email=luis.cavero3@unmsm.edu.pe<br/>
+user.name=Lu1sM1g<br/>
+filter.lfs.clean=git-lfs clean -- %f<br/>
+filter.lfs.smudge=git-lfs smudge -- %f<br/>
+filter.lfs.process=git-lfs filter-process<br/>
+filter.lfs.required=true<br/>
 
   </dt>
 <dt>$ git log</dt>
@@ -51,7 +51,7 @@ filter.lfs.required=true<br\>
 <dt>$ git log --pretty="format:%h %s"</dt>
 <dd>historial con formato.</dd>
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git status</dt>
-<dd>On branch main<br\> Your branch is up to date with 'origin/main'.<br/>Untracked files:<br/>  (use "git add <file>..." to include in what will be committed)<br/>contacto.html<br/>
+<dd>On branch main<br/> Your branch is up to date with 'origin/main'.<br/>Untracked files:<br/>  (use "git add <file>..." to include in what will be committed)<br/>contacto.html<br/>
 nothing added to commit but untracked files present (use "git add" to track)
 </dd>
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git add .</dt>
@@ -73,7 +73,7 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
    0569fe7..83a55b0  main -> main<br/>
 </dd>
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git status</dt>
-<dd>On branch main<br\>Your branch is up to date with 'origin/main'.<br\>nothing to commit, working tree clean</dd>
+<dd>On branch main<br/>Your branch is up to date with 'origin/main'.<br/>nothing to commit, working tree clean</dd>
 
 
 </dl>
