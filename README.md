@@ -7,9 +7,11 @@
   <li>git clone https://github.com/Lu1sMig/sistema-de-registro..git</li>
 </ol>
 <dl>
-  <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~
+  <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~<br />
 $ git config --global user.mail lmcavero.a@gmail.com
 </dt>
   <dd>se valida con el correo del usuario</dd>
+  <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~<br/>
+$ git config --global user.name "Lu1sM1g"</dt>
 </dl>
 
