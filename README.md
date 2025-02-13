@@ -195,6 +195,64 @@ git push -u origin main - Envía los commits del repositorio local al repositori
 
 git remote -v - Muestra las URLs de los repositorios remotos configurados.
   </dd>
+
+  <dt>
+    Subiendo repositorio desde equipo
+  </dt>
+  <dd>
+    SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)
+$ git init
+Initialized empty Git repository in C:/Users/SOPORTE/Documents/GitHub/sistema-de-registro2/.git/
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)
+$ code .
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)
+$ git add .
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)
+$ git commit -m "crea index"
+[master (root-commit) b4bf636] crea index
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)
+$ ^[[200~
+bash: $'\E[200~': command not found
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)
+$ git remote add origin https://github.com/Lu1sMig/sistema-de-registro2.git
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)
+$ git branch -M main
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 373 bytes | 373.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Lu1sMig/sistema-de-registro2.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (main)
+$
+
+  </dd>
 </dl>
 </ol>
 
