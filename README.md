@@ -169,7 +169,7 @@ To https://github.com/Lu1sMig/sistema-de-registro.git
 <li>Profundizando en Git y GitHub</li>
 <dl>
   <dd>
-    Aprendimos que hay otra forma de iniciar un repositorio Git, además de clonar uno existente. Se puede hacer usando el comando "git init" en una carpeta vacía.
+    <prep>Aprendimos que hay otra forma de iniciar un repositorio Git, además de clonar uno existente. Se puede hacer usando el comando "git init" en una carpeta vacía.
 
 Después de inicializar el repositorio local con "git init", creamos un archivo HTML básico y lo agregamos al repositorio con "git add" y "git commit".
 
@@ -193,7 +193,7 @@ git branch -M main - Cambia el nombre de la rama principal de "master" a "main".
 git push -u origin main - Envía los commits del repositorio local al repositorio remoto en GitHub. La opción "-u" establece "origin main" como rama predeterminada para futuros pushes.
 
 git remote -v - Muestra las URLs de los repositorios remotos configurados.
-  </dd>
+  </prep></dd>
 
   <dt>
     Subiendo repositorio desde equipo
