@@ -1,5 +1,9 @@
 #Git y gitHUb: reposistorio, commit y versiones
+
+
 ##Resumen de Moulo
+
+
 En la clase se presentaron los siguientes comandos de Git: Para configurar: git config global user.name y user.email: para configurar el nombre y correo electrónico del usuario. git config --list: para ver las configuraciones actuales de Git.
 Para crear repositorio:
 git clone: para clonar un repositorio remoto. git init: para inicializar un nuevo repositorio local.
