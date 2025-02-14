@@ -199,39 +199,30 @@ git remote -v - Muestra las URLs de los repositorios remotos configurados.
     Subiendo repositorio desde equipo
   </dt>
   <dd>
-    SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
-$ git init
-Initialized empty Git repository in C:/Users/SOPORTE/Documents/GitHub/sistema-de-registro2/.git/
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
-$ code .
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
-$ git add .
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
-$ git status
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
+$ git init</dt>
+<dd>Initialized empty Git repository in C:/Users/SOPORTE/Documents/GitHub/sistema-de-registro2/.git/</dd>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
+$ code .</dt>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
+$ git add .</dt>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
+$ git status</dt>
 <prep>On branch master
-
 No commits yet
-
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   index.html</prep>
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
-$ git commit -m "crea index"<br/>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
+$ git commit -m "crea index"</dt>
 <prep>[master (root-commit) b4bf636] crea index
  1 file changed, 11 insertions(+)
  create mode 100644 index.html
 </prep>
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
-$ git remote add origin https://github.com/Lu1sMig/sistema-de-registro2.git
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
-$ git branch -M main
-
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
+$ git remote add origin https://github.com/Lu1sMig/sistema-de-registro2.git</dt>
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (master)<br/>
+$ git branch -M main</dt>
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro2 (main)<br/>
 $ git push -u origin main</dt>
 <prep>Enumerating objects: 3, done.
