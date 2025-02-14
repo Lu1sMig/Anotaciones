@@ -75,8 +75,7 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
 <dd>On branch main<br/>Your branch is up to date with 'origin/main'.<br/>nothing to commit, working tree clean</dd>
 
 </dl>
-  <li>Ramificaciones y merge
-  </li>
+  <li><strong>Ramificaciones y merge</strong></li>
   <dl>
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git branch<br/></dt>
     <dd>* main</dd><
