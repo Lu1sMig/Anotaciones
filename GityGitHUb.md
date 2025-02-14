@@ -1,10 +1,6 @@
-#Git y gitHUb: reposistorio, commit y versiones
-
-
-##Resumen de Moulo
-
-
-En la clase se presentaron los siguientes comandos de Git: Para configurar: git config global user.name y user.email: para configurar el nombre y correo electrónico del usuario. git config --list: para ver las configuraciones actuales de Git.
+<h1>Git y gitHUb: reposistorio, commit y versiones</h1>
+<h2>Resumen de Modulo</h2>
+<p></p>En la clase se presentaron los siguientes comandos de Git: Para configurar: git config global user.name y user.email: para configurar el nombre y correo electrónico del usuario. git config --list: para ver las configuraciones actuales de Git.
 Para crear repositorio:
 git clone: para clonar un repositorio remoto. git init: para inicializar un nuevo repositorio local.
 
@@ -15,3 +11,4 @@ Para Agregar: git add . : para agregar todos los archivos al área de preparaci�
 Para Mover: git commit: para crear un nuevo commit con los cambios. git push: para enviar los commits al repositorio remoto. git pull: para traer los cambios del repositorio remoto.
 
 Para cambiar: git checkout -b: para crear una nueva rama. git merge: para fusionar una rama con otra. git switch: para cambiar de una rama a otra. git restore --source [hash] [archivo]: para volver a un estado de commit anterior.
+</p>
