@@ -90,9 +90,10 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
   </dl>
   <dl>
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
-    $ git add .</dl>
+    $ git add .</dt>
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
     $ git commit -m "agregando instructor datos"</dt>
+    
       <dd><prep>[desarrollo 6bc3db7] agregando instructor datos
        1 file changed, 1 insertion(+)</prep></dd>
     
