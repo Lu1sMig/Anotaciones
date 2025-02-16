@@ -87,14 +87,13 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
     <dd>Switched to branch 'main'<br/>Your branch is up to date with 'origin/main'.</dd>
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git branch</dt>
     <dd>desarrollo<br/>* main</dd>
-  </dl>
-  <dl>
+
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
     $ git add .</dt>
+    
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
     $ git commit -m "agregando instructor datos"</dt>
-    
-      <dd><prep>[desarrollo 6bc3db7] agregando instructor datos
+    <dd><prep>[desarrollo 6bc3db7] agregando instructor datos
        1 file changed, 1 insertion(+)</prep></dd>
     
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
@@ -102,19 +101,19 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
     <dd><prep>fatal: The current branch desarrollo has no upstream branch.
     To push the current branch and set the remote as upstream, use
         git push --set-upstream origin desarrollo
-    
-        To have this happen automatically for branches without a tracking
+       To have this happen automatically for branches without a tracking
     upstream, see 'push.autoSetupRemote' in 'git help config'.
     <prep></dd>
 
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br />
     $ git push origin desarroll</dt>
-    <prep>
+    <dd><prep>
     error: src refspec desarroll does not match any
-    error: failed to push some refs to 'https://github.com/Lu1sMig/sistema-de-registro.git'
-    
-    SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
-    $ git push origin desarrollo
+    error: failed to push some refs to 'https://github.com/Lu1sMig/sistema-de-registro.git'</prep></dd>
+
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
+    $ git push origin desarrollo</dt>
+    <dd><prep>
     Enumerating objects: 30, done.
     Counting objects: 100% (30/30), done.
     Delta compression using up to 8 threads
@@ -127,17 +126,16 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
     remote:      https://github.com/Lu1sMig/sistema-de-registro/pull/new/desarrollo
     remote:
     To https://github.com/Lu1sMig/sistema-de-registro.git
-     * [new branch]      desarrollo -> desarrollo</prep>
+     * [new branch]      desarrollo -> desarrollo</prep></dd>
      
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main) <br/>$ git init</dt>
     <dd>Reinitialized existing Git repository in C:/Users/SOPORTE/Documents/GitHub/sistema-de-registro/.git/<br />
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git status</dt>
-    <dd>On branch main<br/>
+    <dd><prep>On branch main<br/>
     Your branch is ahead of 'origin/main' by 2 commits.<br/>
       (use "git push" to publish your local commits)<br/><br/>
-    nothing to commit, working tree clean</dd>
-        
-  </dl>
+    nothing to commit, working tree clean</prep></dd>
+     
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>
 $ git log --oneline</dt>
 <dd></dd>9fc4abc (HEAD -> main) Merge branch 'main' of https://github.com/Lu1sMig/sistema-de-registro
