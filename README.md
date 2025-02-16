@@ -81,62 +81,62 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
   <dl>
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git branch<br/></dt>
     <dd>* main</dd><
-    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br>$ git checkout -b desarrollo</dt>
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git checkout -b desarrollo</dt>
     <dd>Switched to a new branch 'desarrollo'</dd>
-    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br>$ git switch main</dt>
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>$ git switch main</dt>
     <dd>Switched to branch 'main'<br/>Your branch is up to date with 'origin/main'.</dd>
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git branch</dt>
     <dd>desarrollo<br/>* main</dd>
   </dl>
+  <dl>
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
+    $ git add .</dl>
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
+    $ git commit -m "agregando instructor datos"</dt>
+      <dd><prep>[desarrollo 6bc3db7] agregando instructor datos
+       1 file changed, 1 insertion(+)</prep></dd>
+    
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
+    $ git push</dt>
+    <dd><prep>fatal: The current branch desarrollo has no upstream branch.
+    To push the current branch and set the remote as upstream, use
+        git push --set-upstream origin desarrollo
+    
+        To have this happen automatically for branches without a tracking
+    upstream, see 'push.autoSetupRemote' in 'git help config'.
+    <prep></dd>
 
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
-$ git add .
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
-$ git commit -m "agregando instructor datos"
-[desarrollo 6bc3db7] agregando instructor datos
- 1 file changed, 1 insertion(+)
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
-$ git push
-fatal: The current branch desarrollo has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin desarrollo
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
-
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
-$ git push origin desarroll
-error: src refspec desarroll does not match any
-error: failed to push some refs to 'https://github.com/Lu1sMig/sistema-de-registro.git'
-
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
-$ git push origin desarrollo
-Enumerating objects: 30, done.
-Counting objects: 100% (30/30), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (24/24), done.
-Writing objects: 100% (30/30), 7.50 KiB | 3.75 MiB/s, done.
-Total 30 (delta 9), reused 16 (delta 3), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (9/9), done.
-remote:
-remote: Create a pull request for 'desarrollo' on GitHub by visiting:
-remote:      https://github.com/Lu1sMig/sistema-de-registro/pull/new/desarrollo
-remote:
-To https://github.com/Lu1sMig/sistema-de-registro.git
- * [new branch]      desarrollo -> desarrollo
-
-<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main) <br/>$ git init</dt>
-<dd>Reinitialized existing Git repository in C:/Users/SOPORTE/Documents/GitHub/sistema-de-registro/.git/<br />
-<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git status</dt>
-<dd>On branch main<br/>
-Your branch is ahead of 'origin/main' by 2 commits.<br/>
-  (use "git push" to publish your local commits)<br/><br/>
-nothing to commit, working tree clean</dd>
-
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br />
+    $ git push origin desarroll</dt>
+    <prep>
+    error: src refspec desarroll does not match any
+    error: failed to push some refs to 'https://github.com/Lu1sMig/sistema-de-registro.git'
+    
+    SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)
+    $ git push origin desarrollo
+    Enumerating objects: 30, done.
+    Counting objects: 100% (30/30), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (24/24), done.
+    Writing objects: 100% (30/30), 7.50 KiB | 3.75 MiB/s, done.
+    Total 30 (delta 9), reused 16 (delta 3), pack-reused 0 (from 0)
+    remote: Resolving deltas: 100% (9/9), done.
+    remote:
+    remote: Create a pull request for 'desarrollo' on GitHub by visiting:
+    remote:      https://github.com/Lu1sMig/sistema-de-registro/pull/new/desarrollo
+    remote:
+    To https://github.com/Lu1sMig/sistema-de-registro.git
+     * [new branch]      desarrollo -> desarrollo</prep>
+     
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main) <br/>$ git init</dt>
+    <dd>Reinitialized existing Git repository in C:/Users/SOPORTE/Documents/GitHub/sistema-de-registro/.git/<br />
+    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git status</dt>
+    <dd>On branch main<br/>
+    Your branch is ahead of 'origin/main' by 2 commits.<br/>
+      (use "git push" to publish your local commits)<br/><br/>
+    nothing to commit, working tree clean</dd>
+        
+  </dl>
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>
 $ git log --oneline</dt>
 <dd></dd>9fc4abc (HEAD -> main) Merge branch 'main' of https://github.com/Lu1sMig/sistema-de-registro
