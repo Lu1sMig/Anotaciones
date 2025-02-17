@@ -60,10 +60,10 @@ $ git branch -M main</prep></dd>
 <dd>On branch main<br/> Your branch is up to date with 'origin/main'.<br/>Untracked files:<br/>  (use "git add <file>..." to include in what will be committed)<br/>contacto.html<br/>
 nothing added to commit but untracked files present (use "git add" to track)
 </dd>
+
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git add .</dt>
 <dd></dd>
-<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git commint -m "archivo contacto"</dt>
-<dd>git: 'commint' is not a git command. See 'git --help'.<br/><br/><br/>The most similar command is<br\>commit </dt></dd>
+
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>
 $ git commit -m "archivo contacto"</dt>
 <dd> [main 83a55b0] archivo contacto <br\> 1 file changed, 12 insertions(+) <br/> create mode 100644 contacto.html</dd>
