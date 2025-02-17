@@ -146,7 +146,7 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
      
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>
 $ git log --oneline</dt>
-<dd></dd>9fc4abc (HEAD -> main) Merge branch 'main' of https://github.com/Lu1sMig/sistema-de-registro
+<dd><prep>9fc4abc (HEAD -> main) Merge branch 'main' of https://github.com/Lu1sMig/sistema-de-registro
 6bc3db7 (origin/desarrollo, desarrollo) agregando instructor datos
 03e62db (origin/main, origin/HEAD) Update app.js
 29e13a1 Actualiza nombre app.js y en link en index.html
@@ -157,15 +157,15 @@ $ git log --oneline</dt>
 32b8a07 Update README.md
 85a557a Crea el app-js
 b6adac0 Update README.md
-502493f Create README.md</dd>
+502493f Create README.md</prep></dd>
 
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)
-$ git merge desarrollo
-Already up to date.
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>
+$ git merge desarrollo</dt>
+<dd>Already up to date.</dd>
 
-SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)
-$ git push origin main
-Enumerating objects: 4, done.
+<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>
+$ git push origin main</dt>
+<dd><prep>Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 8 threads
 Compressing objects: 100% (2/2), done.
@@ -174,7 +174,8 @@ Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Lu1sMig/sistema-de-registro.git
    03e62db..9fc4abc  main -> main
-</dd>
+</prep></dd>
+
 <li>Profundizando en Git y GitHub</li>
 <dl>
   <dd>
