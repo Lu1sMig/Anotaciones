@@ -51,6 +51,11 @@ $ git config --list<br/</dt>
 <dd>Historial de cambios en un lapso de tiempo</dd>
 <dt>$ git log --pretty="format:%h %s"</dt>
 <dd>historial con formato.</dd>
+
+<dt>Git mostrará el nombre de la rama principal (rama) que está en uso, que generalmente se llama master.</dt>
+<dd><prep>*Nota: Para garantizar la compatibilidad futura, se recomienda actualizar el nombre de la rama de master a principal con el siguiente comando:<br/>
+$ git branch -M main</prep></dd>
+  
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git status</dt>
 <dd>On branch main<br/> Your branch is up to date with 'origin/main'.<br/>Untracked files:<br/>  (use "git add <file>..." to include in what will be committed)<br/>contacto.html<br/>
 nothing added to commit but untracked files present (use "git add" to track)
