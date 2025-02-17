@@ -82,7 +82,7 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
 <dd>On branch main<br/>Your branch is up to date with 'origin/main'.<br/>nothing to commit, working tree clean</dd>
 </dl>
   
-<li>Ramificaciones y merge</li>
+<li>Ramificaciones y merge
   <dl>
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git branch<br/></dt>
     <dd>* main</dd>
@@ -246,7 +246,8 @@ branch 'main' set up to track 'origin/main'.</prep>
 
   </dd>
 </dl>
-<li>Resumen de Moulo
+</li>
+<li>Resumen de Modulo
   <dl>
     En la clase se presentaron los siguientes comandos de Git:
 Para configurar:
