@@ -112,12 +112,7 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
        To have this happen automatically for branches without a tracking
     upstream, see 'push.autoSetupRemote' in 'git help config'.
     </prep></dd>
-  </dl>
-  <dl>
     
-    
-    
-
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br />
     $ git push origin desarroll</dt>
     <dd><prep>
