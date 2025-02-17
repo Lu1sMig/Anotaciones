@@ -103,7 +103,7 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
     $ git commit -m "agregando instructor datos"</dt>
     <dd><prep>[desarrollo 6bc3db7] agregando instructor datos
        1 file changed, 1 insertion(+)</prep></dd>
-    
+       
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
     $ git push</dt>
     <dd><prep>fatal: The current branch desarrollo has no upstream branch.
@@ -111,7 +111,12 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
         git push --set-upstream origin desarrollo
        To have this happen automatically for branches without a tracking
     upstream, see 'push.autoSetupRemote' in 'git help config'.
-    <prep></dd>
+    </prep></dd>
+  </dl>
+  <dl>
+    
+    
+    
 
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br />
     $ git push origin desarroll</dt>
