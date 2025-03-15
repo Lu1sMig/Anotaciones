@@ -6,21 +6,95 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
 <h2>03. TRABAJANDO LOCALMENTE</h2>
   <ol>
     <li><h3>Instalar Git en Equipo</h3></li>
-    <a>Tutorial instalación: <link>https://www.atlassian.com/es/git/tutorials/install-git  </a>
+        <a>Tutorial instalación: <link>https://www.atlassian.com/es/git/tutorials/install-git  </a>
     <li><h3>Autenticación basado en token para Git</h3></li>
-    <a>Logon failed, use ctrl+c to cancel basic credential prompt.
-    remote: Support for password authentication was removed on August 13, 2021. 
-    Please use a personal access token instead.
-    remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-    fatal: unable to access ‘<repositório Git>’: The request URL returned error: 403<br>
-    Revisar: https://www.aluracursos.com/blog/exigendia-autenticacion-por-token
-    </a>
-    <li> tercera  </li>
+        <pre>Logon failed, use ctrl+c to cancel basic credential prompt.
+        remote: Support for password authentication was removed on August 13, 2021. 
+        Please use a personal access token instead.
+        remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+        fatal: unable to access ‘<repositório Git>’: The request URL returned error: 403</pre>
+        <p>Revisar: https://www.aluracursos.com/blog/exigendia-autenticacion-por-token</p>
+        <p>De requerirse, deste la cuenta de Git HUb en la Configuración de Desarrollador, seleciconar un Personal access tokens para ser validado (classic)</p><link>https://github.com/settings/tokens 
+    <li><h3>Presentación de la consola y Git clone</h3></li>
+        <h4>Verificación de Instalación y configuración del equipo</h4>
+        <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ (master) $ git --version<br>        
+            git version 2.47.1.windows.2
+            <br><br>
+            SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ (master)
+            $ git config --list --show-origin <br>
+            file:C:/Program Files/Git/etc/gitconfig diff.astextplain.textconv=astextplain
+            file:C:/Program Files/Git/etc/gitconfig filter.lfs.clean=git-lfs clean -- %f
+            file:C:/Program Files/Git/etc/gitconfig filter.lfs.smudge=git-lfs smudge -- %f
+            file:C:/Program Files/Git/etc/gitconfig filter.lfs.process=git-lfs filter-process
+            file:C:/Program Files/Git/etc/gitconfig filter.lfs.required=true
+            file:C:/Program Files/Git/etc/gitconfig http.sslbackend=openssl
+            file:C:/Program Files/Git/etc/gitconfig http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+            file:C:/Program Files/Git/etc/gitconfig core.autocrlf=true
+            file:C:/Program Files/Git/etc/gitconfig core.fscache=true
+            file:C:/Program Files/Git/etc/gitconfig core.symlinks=false
+            file:C:/Program Files/Git/etc/gitconfig pull.rebase=false
+            file:C:/Program Files/Git/etc/gitconfig credential.helper=manager
+            file:C:/Program Files/Git/etc/gitconfig credential.https://dev.azure.com.usehttppath=true
+            file:C:/Program Files/Git/etc/gitconfig init.defaultbranch=master
+            file:C:/Users/SOPORTE/.gitconfig        user.mail=lmcavero.a@gmail.com
+            file:C:/Users/SOPORTE/.gitconfig        user.email=lmcavero.a1@gmail.com
+            file:C:/Users/SOPORTE/.gitconfig        user.name=Lu1sM1g
+            file:C:/Users/SOPORTE/.gitconfig        filter.lfs.clean=git-lfs clean -- %f
+            file:C:/Users/SOPORTE/.gitconfig        filter.lfs.smudge=git-lfs smudge -- %f
+            file:C:/Users/SOPORTE/.gitconfig        filter.lfs.process=git-lfs filter-process
+            file:C:/Users/SOPORTE/.gitconfig        filter.lfs.required=true
+            file:.git/config        core.repositoryformatversion=0
+            file:.git/config        core.filemode=false
+            file:.git/config        core.bare=false
+            file:.git/config        core.logallrefupdates=true
+            file:.git/config        core.symlinks=false
+            file:.git/config        core.ignorecase=true
+            file:.git/config        gui.wmstate=normal
+            file:.git/config        gui.geometry=1109x563+192+192 216 255
+            </pre>
+          <pre>
+            SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ (master) $ git config --list
+            diff.astextplain.textconv=astextplain
+            filter.lfs.clean=git-lfs clean -- %f
+            filter.lfs.smudge=git-lfs smudge -- %f
+            filter.lfs.process=git-lfs filter-process
+            filter.lfs.required=true
+            http.sslbackend=openssl
+            http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+            core.autocrlf=true
+            core.fscache=true
+            core.symlinks=false
+            pull.rebase=false
+            credential.helper=manager
+            credential.https://dev.azure.com.usehttppath=true
+            init.defaultbranch=master
+            user.mail=lmcavero.a@gmail.com
+            user.email=lmcavero.a1@gmail.com
+            user.name=Lu1sM1g
+            filter.lfs.clean=git-lfs clean -- %f
+            filter.lfs.smudge=git-lfs smudge -- %f
+            filter.lfs.process=git-lfs filter-process
+            filter.lfs.required=true
+            core.repositoryformatversion=0
+            core.filemode=false
+            core.bare=false
+            core.logallrefupdates=true
+            core.symlinks=false
+            core.ignorecase=true
+            gui.wmstate=normal
+            gui.geometry=1109x563+192+192 216 255
+          </pre>
+    <li><h3>cuatro</h3></li>
+    <li><h3>cinco</h3></li>
+    <li><h3>seis</h3></li>
+    <li><h3>siete</h3></li>
+    <li><h3>ocho</h3></li>
+    <li><h3>nueve</h3></li>
   </ol>
   
   
-<h3>Git y gitHUb: reposistorio, commit y versiones</h2>
- <h3></h3>configurar tu nombre de usuario y correo electrónico de Git</h3>
+<h3>Git y gitHUb: reposistorio, commit y versiones</h3>
+ <h3>configurar tu nombre de usuario y correo electrónico de Git</h3>
 
 <p>Dentro de los comando más comunenes se tienen:</p>
   <li>git clone https://github.com/Lu1sMig/sistema-de-registro..git</li>
