@@ -7,15 +7,15 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
   <ol>
     <li><h3>Instalar Git en Equipo</h3></li>
     <a>Tutorial instalación: <link>https://www.atlassian.com/es/git/tutorials/install-git  </a>
-    <li<h3>Autenticación basado en token para Git</h3></li>
+    <li><h3>Autenticación basado en token para Git</h3></li>
     <a>Logon failed, use ctrl+c to cancel basic credential prompt.
     remote: Support for password authentication was removed on August 13, 2021. 
     Please use a personal access token instead.
     remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-    fatal: unable to access ‘<repositório Git>’: The request URL returned error: 403
-    Revisar: <link https://www.aluracursos.com/blog/exigendia-autenticacion-por-token>
+    fatal: unable to access ‘<repositório Git>’: The request URL returned error: 403<br>
+    Revisar: https://www.aluracursos.com/blog/exigendia-autenticacion-por-token
     </a>
-    <li> sds  </li>
+    <li> tercera  </li>
   </ol>
   
   
