@@ -4,13 +4,18 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
 <h2>01. CREAR CUENTA EN GIT</h1>
 <h2>02. COMMITE VSCODE EQUIPOS en la WEB</h1>
 <h2>03. TRABAJANDO LOCALMENTE</h2>
-
   <ol>
     <li><h3>Instalar Git en Equipo</h3></li>
-    <li>    </li>
+      Tutorial instalación: <link>https://www.atlassian.com/es/git/tutorials/install-git  
+    <li<h3>Autenticación basado en token para Git</h3></li>
+    <a></a>Logon failed, use ctrl+c to cancel basic credential prompt.
+    remote: Support for password authentication was removed on August 13, 2021. 
+    Please use a personal access token instead.
+    remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+    fatal: unable to access ‘<repositório Git>’: The request URL returned error: 403 </a>
     <li>   </li>
   </ol>
-  Instalación: <link>https://www.atlassian.com/es/git/tutorials/install-git
+  
   
 <h3>Git y gitHUb: reposistorio, commit y versiones</h2>
  <h3></h3>configurar tu nombre de usuario y correo electrónico de Git</h3>
