@@ -1,11 +1,17 @@
-# Anotaciones Libro
+# Anotaciones Curso:  Git-Github Repositorio Commit Versiones
+https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/84689
 
-<h1>Anotaciones Libro</h1>
+<h2>01. CREAR CUENTA EN GIT</h1>
+<h2>02. COMMITE VSCODE EQUIPOS en la WEB</h1>
+<h2>03. TRABAJANDO LOCALMENTE</h2>
+<h3>Instalar Git en Equipo</H2>
+<ol start="3">
+  Instalación: <link>https://www.atlassian.com/es/git/tutorials/install-git
+  
+<h3>Git y gitHUb: reposistorio, commit y versiones</h2>
+ <h3></h3>configurar tu nombre de usuario y correo electrónico de Git</h3>
 
-<h2>...</h2>
-<h2>Git y gitHUb: reposistorio, commit y versiones</h2>
 <p>Dentro de los comando más comunenes se tienen:</p>
-<ol start="3">>
   <li>git clone https://github.com/Lu1sMig/sistema-de-registro..git</li>
 <dl>
   <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~<br />
