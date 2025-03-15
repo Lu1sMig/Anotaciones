@@ -4,8 +4,12 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
 <h2>01. CREAR CUENTA EN GIT</h1>
 <h2>02. COMMITE VSCODE EQUIPOS en la WEB</h1>
 <h2>03. TRABAJANDO LOCALMENTE</h2>
-<h3>Instalar Git en Equipo</H2>
-<ol start="3">
+
+  <ol>
+    <li><h3>Instalar Git en Equipo</h3></li>
+    <li>    </li>
+    <li>   </li>
+  </ol>
   Instalación: <link>https://www.atlassian.com/es/git/tutorials/install-git
   
 <h3>Git y gitHUb: reposistorio, commit y versiones</h2>
