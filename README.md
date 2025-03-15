@@ -15,11 +15,12 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
         fatal: unable to access ‘<repositório Git>’: The request URL returned error: 403</pre>
         <p>Revisar: https://www.aluracursos.com/blog/exigendia-autenticacion-por-token</p>
         <p>De requerirse, deste la cuenta de Git HUb en la Configuración de Desarrollador, seleciconar un Personal access tokens para ser validado (classic)</p><link>https://github.com/settings/tokens 
-    <li><h3>Presentación de la consola y Git clone</h3></li>
+    <li><h3>Presentación de la consola</h3></li>
         <link>https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez
         <h4>Verificación de Instalación y configuración del equipo</h4>
         <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ (master) $ git --version
           git version 2.47.1.windows.2</pre>
+          <a><b>Comprobando Configuración</b><a>
           <pre>
             SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ (master)
             $ git config --list --show-origin <br>
@@ -85,7 +86,10 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
             gui.wmstate=normal
             gui.geometry=1109x563+192+192 216 255
           </pre>
-    <li><h3>cuatro</h3></li>
+    <li><h3>Git clone</h3></li>
+            <a><b>Descargar un proyecto de GIBHUB al equipo</b></a>
+            <pre>              
+            </pre>
     <li><h3>cinco</h3></li>
     <li><h3>seis</h3></li>
     <li><h3>siete</h3></li>
