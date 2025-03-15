@@ -16,7 +16,7 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
         <p>Revisar: https://www.aluracursos.com/blog/exigendia-autenticacion-por-token</p>
         <p>De requerirse, deste la cuenta de Git HUb en la Configuración de Desarrollador, seleciconar un Personal access tokens para ser validado (classic)</p><link>https://github.com/settings/tokens 
     <li><h3>Presentación de la consola y Git clone</h3></li>
-        <a>https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez</a>
+        <link>https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez
         <h4>Verificación de Instalación y configuración del equipo</h4>
         <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ (master) $ git --version
           git version 2.47.1.windows.2</pre>
