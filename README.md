@@ -113,6 +113,16 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
                 Date:   Sat Mar 15 18:29:49 2025 -0500
                 Update README.md
             </pre>
+            <a>Los Commit resumidos por cada linea</a>
+            <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/Anotaciones (main)
+            $ git log --oneline
+            1e3f2ba (HEAD -> main, origin/main, origin/HEAD) Update README.md
+            89be4a3 Update README.md
+            d88f99c Update README.md
+            ca92d66 Update README.md
+            6f44e31 Update README.md
+            31a1002 Update README.md
+            87230a4 Update README.md</pre>
     <li><h3>cinco</h3></li>
     <li><h3>seis</h3></li>
     <li><h3>siete</h3></li>
