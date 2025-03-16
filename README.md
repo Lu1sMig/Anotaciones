@@ -4,7 +4,7 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
 <h2>01. CREAR CUENTA EN GIT</h1>
 <h2>02. COMMITE VSCODE EQUIPOS en la WEB</h1>
 <h2>03. TRABAJANDO LOCALMENTE</h2>
-  <ol>
+  <ol type="a">
     <li><h3>Instalar Git en Equipo</h3></li>
         <a>Tutorial instalación: <link>https://www.atlassian.com/es/git/tutorials/install-git  </a>
     <li><h3>Autenticación basado en token para Git</h3></li>
@@ -194,7 +194,33 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
       <br>
     <li><h3>Para saber mas de OPen Source</h3></li>
     <li><h3>Para saber mas de OPen Source</h3></li>
-    <li><h3>Para saber mas de OPen Source==============================================================</h3></li>
+
+<li>Resumen de Modulo</li>
+    <a></a>En la clase se presentaron los siguientes comandos de Git:</a>
+    <b>Para configurar:</b>
+    git config global user.name y user.email: para configurar el nombre y correo electrónico del usuario.
+    git config --list: para ver las configuraciones actuales de Git.
+    <b>Para crear repositorio:    </b>
+    git clone: para clonar un repositorio remoto.
+    git init: para inicializar un nuevo repositorio local.
+    <b>Para Verificar </b>
+    git status: para ver el estado actual del repositorio.
+    git log: para ver el historial de commits.
+    git diff: para ver los cambios en los archivos.
+    git branch: para ver las ramas existentes.
+    <b>Para Agregar:</b>
+    git add .       : para agregar todos los archivos al área de preparación (staging area).
+    git add [file]  : para agregar un archivo especifico al área de preparación (staging area).
+    <b>Para Mover:</b>
+    git commit: para crear un nuevo commit con los cambios.
+    git push: para enviar los commits al repositorio remoto.
+    git pull: para traer los cambios del repositorio remoto.
+    <b>Para cambiar:</b>
+    <pre>git checkout -b: para crear una nueva rama.
+    git merge: para fusionar una rama con otra.
+    git switch: para cambiar de una rama a otra.
+    git restore --source [hash] [archivo]: para volver a un estado de commit anterior.a</pre>
+  <li><h3>Para saber mas de OPen Source==============================================================</h3></li>
   </ol>
   
 
@@ -344,43 +370,7 @@ branch 'main' set up to track 'origin/main'.</prep>
   </dd>
 </dl>
 </li>
-<li>Resumen de Modulo
-  <dl>
-    En la clase se presentaron los siguientes comandos de Git:
-Para configurar:
-git config global user.name y user.email: para configurar el nombre y correo electrónico del usuario.
-git config --list: para ver las configuraciones actuales de Git.
-    
-Para crear repositorio:    
-git clone: para clonar un repositorio remoto.
-git init: para inicializar un nuevo repositorio local.
 
-Para Verificar 
-git status: para ver el estado actual del repositorio.
-git log: para ver el historial de commits.
-git diff: para ver los cambios en los archivos.
-git branch: para ver las ramas existentes.
-
-Para Agregar:
-git add .       : para agregar todos los archivos al área de preparación (staging area).
-git add [file]  : para agregar un archivo especifico al área de preparación (staging area).
-
-Para Mover:
-git commit: para crear un nuevo commit con los cambios.
-git push: para enviar los commits al repositorio remoto.
-git pull: para traer los cambios del repositorio remoto.
-
-Para cambiar:
-git checkout -b: para crear una nueva rama.
-git merge: para fusionar una rama con otra.
-git switch: para cambiar de una rama a otra.
-git restore --source [hash] [archivo]: para volver a un estado de commit anterior.
-  </dl>
-</li>
 </ol>
 
-
-<style type=”text/css”>
-ol {  list-style-type: lower-roman;}
-</style>
 
