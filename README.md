@@ -21,8 +21,10 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
         <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ (master) $ git --version
           git version 2.47.1.windows.2</pre>
           <a><b>Comprobando Configuración</b><a>
-          <pre>
-            SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ (master)
+            <a>Se valid credenciales de coneccion</a>
+            <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ $ git config --global user.mail lmcavero.a@gmail.com</pre>
+            <pre><dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ $ git config --global user.name "Lu1sM1g"</pre>
+            <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~ (master)
             $ git config --list --show-origin <br>
             file:C:/Program Files/Git/etc/gitconfig diff.astextplain.textconv=astextplain
             file:C:/Program Files/Git/etc/gitconfig filter.lfs.clean=git-lfs clean -- %f
@@ -123,64 +125,69 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
             6f44e31 Update README.md
             31a1002 Update README.md
             87230a4 Update README.md</pre>
-    <li><h3>cinco</h3></li>
-    <li><h3>seis</h3></li>
-    <li><h3>siete</h3></li>
-    <li><h3>ocho</h3></li>
-    <li><h3>nueve</h3></li>
+    <li><h3>Para saber mas de Git Clone</h3></li>
+        <a>Con el git clone también puedes clonar el repositorio para una carpeta específica:</a>
+        <pre>git clone <repositorio> <mi-proyecto-clone></pre>
+        <a>El repositorio localizado en repositorio es clonado para una carpeta llamada</a>
+        <pre></pre>
+        <a>configurar el git clone y clonar el repositorio desde una branch específica, diferente a la original, de esta manera:</a>
+        <pre>git clone -branch new_feature <repositorio></pre>        
+            <a>mi-proyecto-clone   git clone <repositorio> <mi-proyecto-clone></a>
+    <li><h3>Para saber mas de Git Log</h3></li>
+      <ul>
+            <li>En lugar de menos informaciones, queremos ver más, como las alteraciones del commit, podemos usar: git log -p</li>
+           <li>Buscar las informaciones de la persona autora del commit con el comando: git log --author="user_name"</li>
+           <li>Buscar las informaciones de la persona autora del commit con el comando: git log --author="user_name"</li>
+           <li>informaciones por fecha: git log --since=1.month.ago --until=1.day.ago</li>
+           <li>formatear la visualización de las informaciones del commit con el comando: git log --pretty="format:%h %s"</li></ul>
+           <a></s>Más parametros en </pre> <link>https://devhints.io/git-log</a>
+    <li><h3>Para saber mas de la consola</h3></li>
+        <prep>
+        </prep>
+    <li><h3>Git Status, Add y Push</h3></li>
+        <pre>
+        SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo) $ git add .
+        SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo) $ git commit -m "agregando instructor datos"
+        [desarrollo 6bc3db7] agregando instructor datos
+        1 file changed, 1 insertion(+)</pre>
+        <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo) $ git push
+        fatal: The current branch desarrollo has no upstream branch.
+        To push the current branch and set the remote as upstream, use
+        git push --set-upstream origin desarrollo
+        To have this happen automatically for branches without a tracking
+        upstream, see 'push.autoSetupRemote' in 'git help config'.
+        </pre>    
+        <prep>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo) $ git push origin desarroll</pre>
+        <pre> error: src refspec desarroll does not match any
+        error: failed to push some refs to 'https://github.com/Lu1sMig/sistema-de-registro.git'</pre>
+        <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)$ git push origin desarrollo
+        Enumerating objects: 30, done.
+        Counting objects: 100% (30/30), done.
+        Delta compression using up to 8 threads
+        Compressing objects: 100% (24/24), done.
+        Writing objects: 100% (30/30), 7.50 KiB | 3.75 MiB/s, done.
+        Total 30 (delta 9), reused 16 (delta 3), pack-reused 0 (from 0)
+        remote: Resolving deltas: 100% (9/9), done.
+        remote:
+        remote: Create a pull request for 'desarrollo' on GitHub by visiting:
+        remote: https://github.com/Lu1sMig/sistema-de-registro/pull/new/desarrollo
+        remote:
+        To https://github.com/Lu1sMig/sistema-de-registro.git
+         * [new branch]      desarrollo -> desarrollo
+        </pre>
+    <li><h3>Para saber mas de OPen Source</h3></li>
+        <prep>
+        </prep>
+    <li><h3>Git Diff y Git Restore</h3></li>
+        <prep>
+        </prep>
+    <li><h3>Para saber mas de OPen Source</h3></li>
+    <li><h3>Para saber mas de OPen Source</h3></li>
+    <li><h3>Para saber mas de OPen Source</h3></li>
+    <li><h3>Para saber mas de OPen Source</h3></li>
+    <li><h3>Para saber mas de OPen Source==============================================================</h3></li>
   </ol>
   
-  
-<h3>Git y gitHUb: reposistorio, commit y versiones</h3>
- <h3>configurar tu nombre de usuario y correo electrónico de Git</h3>
-
-<p>Dentro de los comando más comunenes se tienen:</p>
-  <li>git clone https://github.com/Lu1sMig/sistema-de-registro..git</li>
-<dl>
-  <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~<br />
-$ git config --global user.mail lmcavero.a@gmail.com
-</dt>
-  <dd>se valida con el correo del usuario</dd>
-<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~<br />
-$ git config --global user.name "Lu1sM1g"
-  </dt>
-  <dt>
-    SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~<br />
-$ git config --list<br/</dt>
-        <dd>diff.astextplain.textconv=astextplain<br />
-        filter.lfs.clean=git-lfs clean -- %f<br />
-        filter.lfs.smudge=git-lfs smudge -- %f<br />
-        filter.lfs.process=git-lfs filter-process<br/>
-        filter.lfs.required=true<br/>
-        http.sslbackend=openssl<br/>
-        http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt<br/>
-        core.autocrlf=true<br/>
-        core.fscache=true<br/>
-        core.symlinks=false<br/>
-        pull.rebase=false<br/>
-        credential.helper=manager<br/>
-        credential.https://dev.azure.com.usehttppath=true<br/>
-        init.defaultbranch=master<br/>
-        user.mail=lmcavero.a@gmail.com<br/>
-        user.email=luis.cavero3@unmsm.edu.pe<br/>
-        user.name=Lu1sM1g<br/>
-        filter.lfs.clean=git-lfs clean -- %f<br/>
-        filter.lfs.smudge=git-lfs smudge -- %f<br/>
-        filter.lfs.process=git-lfs filter-process<br/>
-        filter.lfs.required=true<br/>
- </dd>
-</dt>
-<dt>$ git log</dt>
-<dd>historial de conecciones al repositorio</dd>
-<dt>$ git log --oneline</dt>
-<dd>historial por conectar a git</dd>
-<dt>$ git log -p</dt>
-<dd>Historial detallado de cambio del repositorio</dd>
-<dt>git log --since=1.month-ago --until=1.day.ago</dt>
-<dd>Historial de cambios en un lapso de tiempo</dd>
-<dt>$ git log --pretty="format:%h %s"</dt>
-<dd>historial con formato.</dd>
-
 <dt>Git mostrará el nombre de la rama principal (rama) que está en uso, que generalmente se llama master.</dt>
 <dd><prep>*Nota: Para garantizar la compatibilidad futura, se recomienda actualizar el nombre de la rama de master a principal con el siguiente comando:<br/>
 $ git branch -M main</prep></dd>
@@ -225,45 +232,7 @@ To https://github.com/Lu1sMig/sistema-de-registro.git<br/>
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git branch</dt>
     <dd>desarrollo<br/>* main</dd>
 
-    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
-    $ git add .</dt>
-    
-    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
-    $ git commit -m "agregando instructor datos"</dt>
-    <dd><prep>[desarrollo 6bc3db7] agregando instructor datos
-       1 file changed, 1 insertion(+)</prep></dd>
-       
-    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
-    $ git push</dt>
-    <dd><prep>fatal: The current branch desarrollo has no upstream branch.
-    To push the current branch and set the remote as upstream, use
-        git push --set-upstream origin desarrollo
-       To have this happen automatically for branches without a tracking
-    upstream, see 'push.autoSetupRemote' in 'git help config'.
-    </prep></dd>
-    
-    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br />
-    $ git push origin desarroll</dt>
-    <dd><prep>
-    error: src refspec desarroll does not match any
-    error: failed to push some refs to 'https://github.com/Lu1sMig/sistema-de-registro.git'</prep></dd>
-
-    <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (desarrollo)<br/>
-    $ git push origin desarrollo</dt>
-    <dd><prep>
-    Enumerating objects: 30, done.
-    Counting objects: 100% (30/30), done.
-    Delta compression using up to 8 threads
-    Compressing objects: 100% (24/24), done.
-    Writing objects: 100% (30/30), 7.50 KiB | 3.75 MiB/s, done.
-    Total 30 (delta 9), reused 16 (delta 3), pack-reused 0 (from 0)
-    remote: Resolving deltas: 100% (9/9), done.
-    remote:
-    remote: Create a pull request for 'desarrollo' on GitHub by visiting:
-    remote:      https://github.com/Lu1sMig/sistema-de-registro/pull/new/desarrollo
-    remote:
-    To https://github.com/Lu1sMig/sistema-de-registro.git
-     * [new branch]      desarrollo -> desarrollo</prep></dd>
+   
      
     <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main) <br/>$ git init</dt>
     <dd>Reinitialized existing Git repository in C:/Users/SOPORTE/Documents/GitHub/sistema-de-registro/.git/<br />
