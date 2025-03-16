@@ -88,7 +88,30 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
           </pre>
     <li><h3>Git clone</h3></li>
             <a><b>Descargar un proyecto de GIBHUB al equipo</b></a>
-            <pre>              
+            <pre>  
+            SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub (master)
+            $ PWD
+            /c/Users/SOPORTE/Documents/GitHub</pre><pre>
+            SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub (master)
+            $ git clone https://github.com/Lu1sMig/Anotaciones.git
+            Cloning into 'Anotaciones'...
+            remote: Enumerating objects: 177, done.
+            remote: Counting objects: 100% (27/27), done.
+            remote: Compressing objects: 100% (27/27), done.
+            remote: Total 177 (delta 16), reused 0 (delta 0), pack-reused 150 (from 1)
+            Receiving objects: 100% (177/177), 65.31 KiB | 613.00 KiB/s, done.
+            Resolving deltas: 100% (79/79), done.
+            </pre>
+            <a>Verifica lo actuado en le proyecto, ojo que se ha ejecutado dentro de la carpeta del proyecto</a>
+            <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/Anotaciones (main)  $ git log
+                commit 1e3f2ba5f8cf1057d54abd39b40739320d4c8bfe (HEAD -> main, origin/main, origin/HEAD)
+                Author: Lu1sMig <lmcavero.a1@gmail.com>
+                Date:   Sat Mar 15 18:51:05 2025 -0500
+                Update README.md
+                commit 89be4a3b2837b0f48148b02def2297c9323640c4
+                Author: Lu1sMig <lmcavero.a1@gmail.com>
+                Date:   Sat Mar 15 18:29:49 2025 -0500
+                Update README.md
             </pre>
     <li><h3>cinco</h3></li>
     <li><h3>seis</h3></li>
