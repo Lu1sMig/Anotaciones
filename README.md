@@ -135,12 +135,12 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
             <a>mi-proyecto-clone   git clone <repositorio> <mi-proyecto-clone></a>
     <li><h3>Para saber mas de Git Log</h3></li>
       <ul>
-            <li>En lugar de menos informaciones, queremos ver más, como las alteraciones del commit, podemos usar: git log -p</li>
+           <li>En lugar de menos informaciones, queremos ver más, como las alteraciones del commit, podemos usar: git log -p</li>
            <li>Buscar las informaciones de la persona autora del commit con el comando: git log --author="user_name"</li>
            <li>Buscar las informaciones de la persona autora del commit con el comando: git log --author="user_name"</li>
            <li>informaciones por fecha: git log --since=1.month.ago --until=1.day.ago</li>
            <li>formatear la visualización de las informaciones del commit con el comando: git log --pretty="format:%h %s"</li></ul>
-           <a></s>Más parametros en </pre> <link>https://devhints.io/git-log</a>
+           <a href="https://devhints.io/git-log">Más parametros en https://devhints.io/git-log</a>
     <li><h3>Para saber mas de la consola</h3></li>
         <prep>
         </prep>
@@ -181,7 +181,9 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
     <li><h3>Git Diff y Git Restore</h3></li>
         <prep>
         </prep>
-    <li><h3>Para saber mas de OPen Source</h3></li>
+    <li><h3>Navenando en le tiempo</h3></li>
+ </ol>
+ </ol><h2>Rae</h2>    
     <li><h3>Para saber mas de OPen Source</h3></li>
     <li><h3>Para saber mas de OPen Source</h3></li>
     <li><h3>Para saber mas de OPen Source</h3></li>
