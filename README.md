@@ -183,24 +183,20 @@ https://app.aluracursos.com/course/git-github-repositorio-commit-versiones/task/
         </prep>
     <li><h3>Navenando en le tiempo</h3></li>
  </ol>
- </ol><h2>Rae</h2>    
-    <li><h3>Para saber mas de OPen Source</h3></li>
+ </ol><h2>Ramificaciones y mergeae</h2>    
+    <li><h3>Git Branch</h3></li>
+      <p>Git mostrará el nombre de la rama principal (rama) que está en uso, que generalmente se llama master.</p>
+      <pre>*Nota: Para garantizar la compatibilidad futura, se recomienda actualizar el nombre de la rama de master a principal con el siguiente comando:  $ git branch -M main</prep></dd>
+      <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git status
+      <dd>On branch main<br/> Your branch is up to date with 'origin/main'.<br/>Untracked files:<br/>  (use "git add <file>..." to include in what will be committed)<br/>contacto.html<br/>
+      nothing added to commit but untracked files present (use "git add" to track)</pre>
+      <pre>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git add . </pre>
+      <br>
     <li><h3>Para saber mas de OPen Source</h3></li>
     <li><h3>Para saber mas de OPen Source</h3></li>
     <li><h3>Para saber mas de OPen Source==============================================================</h3></li>
   </ol>
   
-<dt>Git mostrará el nombre de la rama principal (rama) que está en uso, que generalmente se llama master.</dt>
-<dd><prep>*Nota: Para garantizar la compatibilidad futura, se recomienda actualizar el nombre de la rama de master a principal con el siguiente comando:<br/>
-$ git branch -M main</prep></dd>
-  
-<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br />$ git status</dt>
-<dd>On branch main<br/> Your branch is up to date with 'origin/main'.<br/>Untracked files:<br/>  (use "git add <file>..." to include in what will be committed)<br/>contacto.html<br/>
-nothing added to commit but untracked files present (use "git add" to track)
-</dd>
-
-<dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>$ git add .</dt>
-<dd></dd>
 
 <dt>SOPORTE@MPFNMPF-GAKM4HB MINGW64 ~/Documents/GitHub/sistema-de-registro (main)<br/>
 $ git commit -m "archivo contacto"</dt>
