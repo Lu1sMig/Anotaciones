@@ -2,11 +2,26 @@
 
 ## Requests y responses Ver el primer video    14 / 14    31min
 
-API
-JSON
-HTTP Request
+> API
+> JSON
+> HTTP Request
 
 ## Utilizando una biblioteca externa           04 / 09    30min
 ## Lidiando con excepciones                    00 / 10    32min
 ### Persistiendo datos en archivos             00 / 09    19min
 ## Consolidando conocimientos                  00 / 09    24min
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
